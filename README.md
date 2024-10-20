@@ -1,7 +1,7 @@
 # HEncode  
 CLI file compression utility using huffman encoding  
   
-Important notes: does not currently support files larger than 1MB. The utility will seg fault for inputs larger than the maximum size. Also, it will currently crash on many inputs for unknown reasons.  
+Important notes: does not currently support files larger than 1MB. Also, the utility will currently crash on many inputs for unknown reasons.  
 Build instructions: Build with GNU make using the provided makefile  
 Usage: HEncode filename [-d] [-e] [-l#] [-z]  
 Supported flags:  
